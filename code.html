@@ -1,0 +1,79 @@
+---
+layout: page
+title: Code
+permalink: /code/
+---
+
+<h3>TMT/IRIS ETC</h3>
+<p>The <a href="https://www.tmt.org/etc/iris">IRIS Exposure Time Calculator
+(IRIS ETC)</a> is a tool designed to help develop science cases for IRIS on
+the <a href="https://www.tmt.org">Thirty Meter Telescope (TMT)</a>. <a
+href="https://oirlab.ucsd.edu/IRIS.html">IRIS</a> is a near-IR (0.8 - 2.4
+microns) integral field spectrograph, which will work at the diffraction
+limit of TMT. IRIS is an imager and a spectrograph with a sequential
+design, such that a pickoff mirror will be used to feed imager optics to
+the spectrograph. This sequential design will allow IRIS to operate both of
+the imager and spectrograph simultaneously.</p> 
+
+<p>
+The IRIS ETC is currently being adapted to work with <a
+href="https://www2.keck.hawaii.edu/inst/osiris/">OSIRIS</a> and the newly
+designed instrument <a href="https://oirlab.ucsd.edu/LIGER.html">LIGER</a>
+for the Keck I AO upgrade <a href="https://keckao.github.io/kapa">KAPA
+(Keck All-sky Precision Adaptive-optics)</a>. The source code for the IRIS
+ETC can be found here - <a
+href="https://github.com/gwalth/IRIS_snr_sim">GitHub</a>
+
+
+</br></p>
+
+
+
+
+
+
+<h3> Carnegie Python Distribution</h3>
+
+<p>The <a
+href="http://code.obs.carnegiescience.edu/carnegie-python-distribution">Carnegie
+Python distribution (CarPy)</a> is collection of Python routines for data
+reduction and analysis for instruments on Magellan (i.e. IMACS, FourStar,
+LDSS3, MagE and MIKE). CarPy includes many standard open source Python
+packages such as NumPy and SciPy. I helped contribute to the development of
+CarPy, which includes writing routines and designing the distribution. 
+
+<h3>COSMOS</h3>
+
+<p><a href="http://code.obs.carnegiescience.edu/cosmos">The Carnegie
+Observatories System for MultiObject Spectroscopy (COSMOS)</a> is one of
+the Carnegie data pipelines for reducing multiobject and longslit spectra
+from Magellan IMACS and LDSS3. I helped contribute to its development. In
+particular I wrote the C code for the ldss3-pattern noise removal routine
+which is designed to remove the high frequency pattern noise in Fourier
+space that can intermittently appear on the LDSS3 detectors. I'm currently
+working on investigating whether this can be updated to include the LDSS3-C
+detectors.
+
+<!-- p>I created a package that builds the prerequisites needed by COSMOS. It has been tested with Mac OS X 10.6 (Snow Leopard)
+and Ubuntu 11.04.  It is a simple Makefile which needs to be modified for
+the installation path.  The gcc and g77 dependencies are included with the
+Snow Leopard version.  Obvious improvements are to make a configure script
+and also change g77 to gfortran.</br>
+
+<a href="COSMOS">COSMOS 2.20 +dependencies (CFITSIO,
+PGPLOT)</a></p-->
+
+
+<h3>Additional Code</h3>
+
+<p>My stable code lives here - 
+<a href="https://github.com/gwalth">GitHub</a> 
+</p>
+
+<p>My private developmental code lives here - 
+<a href="https://bitbucket.org/gwalth">Bitbucket</a>
+</p>
+
+<p>My really old deprecated code lives here - 
+<a href="http://code.obs.carnegiescience.edu/python/walth">code.obs.carnegiescience</a>
+</p>

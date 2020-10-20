@@ -1,0 +1,18 @@
+---
+layout: page
+title: Observing
+permalink: /observing/
+---
+
+<p>
+<img src=/assets/images/Keck_Greg.JPG width=400px>
+</p>
+
+<table>
+<caption>Note - * represent half nights </caption>
+<tr><th align=left>Dates<th align=left>Telescope<th align=left>Instrument
+{% for run in site.data.observing %}
+  <tr>
+    <td>{{ run.date }}<td>{{ run.telescope }}<td>{{ run.instrument }}</tr>
+{% endfor %}
+</table>  
