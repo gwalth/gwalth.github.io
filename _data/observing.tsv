@@ -1,4 +1,9 @@
 nights	date	telescope	instrument
+2	2021, Aug 29-30	Magellan	LDSS3-C
+1	2021, Aug 28	Magellan	FIRE 
+1.5	2021, Aug 19-20	Magellan	FIRE 
+2	2021, Aug 2-3	Magellan	LDSS3-C
+3	2021, Jul 21-23	Magellan	FIRE 
 3	2021, Jun 20-22	Magellan	FIRE 
 1	2021, Apr 17	Magellan	IMACS
 0	2021, Apr 8-9	Magellan	LDSS3-C [COVID-19]
